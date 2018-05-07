@@ -1,0 +1,21 @@
+{
+    "name": "mimbre/http-json",
+    "description": "A minimalist http controller.",
+    "type": "php-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gonzalo Chumillas",
+            "email": "gchumillas@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "mimbre/http": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mimbre\\": "src/"
+        }
+    }
+}
