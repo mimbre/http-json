@@ -9,6 +9,12 @@
             "email": "gchumillas@email.com"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/mimbre/http"
+      }
+    ],
     "require": {
         "php": ">=7.2.0",
         "mimbre/http": "^1.0"
