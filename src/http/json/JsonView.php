@@ -15,7 +15,7 @@ abstract class JsonView extends HttpView
     header("Content-Type: application/json; charset=utf-8");
 
     try {
-      $this->controller->done();
+      $this->controller->processRequest();
     } catch (JsonException $e) {
       $message = substr(preg_replace('/\s+/', ' ', $e->getMessage()), 0, 150);
       header("HTTP/1.0 400 $message");
